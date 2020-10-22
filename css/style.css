@@ -21,10 +21,12 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+html, body {
   /*prevents any horizontal scrolling*/
   overflow-x: hidden;
+}
 
+body {
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -204,4 +206,12 @@ footer {
   #orderModal {
     padding-right: 0px !important;
   }
+}
+
+
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
