@@ -206,6 +206,11 @@ footer {
   #orderModal {
     padding-right: 0px !important;
   }
+
+  .subtotal {
+    padding-left: 0px !important;
+  }
+
 }
 
 
